@@ -1,0 +1,22 @@
+# Code ownership for the Enterprise DevOps Platform.
+# Order matters: the last matching pattern wins.
+
+# Default owner for everything in the repo.
+*                       @abhisheksawant52
+
+# Infrastructure
+/terraform/             @abhisheksawant52
+/ansible/               @abhisheksawant52
+
+# Control-plane service
+/src/                   @abhisheksawant52
+/tests/                 @abhisheksawant52
+
+# Delivery
+/helm/                  @abhisheksawant52
+/kubernetes/            @abhisheksawant52
+/argocd/                @abhisheksawant52
+
+# Pipelines and security
+/.github/workflows/     @abhisheksawant52
+/SECURITY.md            @abhisheksawant52

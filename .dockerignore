@@ -1,0 +1,29 @@
+# Version control
+.git
+.gitignore
+.github
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+
+# Infra and docs not needed in the image
+terraform/
+ansible/
+kubernetes/
+helm/
+argocd/
+docs/
+architecture/
+tests/
+*.md
+Makefile
+.pre-commit-config.yaml
+.editorconfig
